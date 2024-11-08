@@ -19,6 +19,8 @@ import aboutSassImage from "@/assets/img/about/about__sass.png";
 import About6 from "@/components/sections/about/About6";
 import Hero2 from "@/components/sections/hero-banners/Hero2";
 import heroStartupImage from "@/assets/img/herobaner/herobanner__startup.jpg";
+import OpenMarketBest from "@/components/sections/openmarket/OpenMarketBest";
+
 const Home20Main = () => {
   const { isOnepage } = useHeaderContex();
   return (
@@ -34,6 +36,7 @@ const Home20Main = () => {
       <Brands5 type={2} />
       <Skills title={"Best amazing skills we have."} type={3} />
       <Video video={2} />
+      <OpenMarketBest />
       <CounterUp2 />
       <Services4
         title={"WE OFFER CONSULTANCY SERVICES."}
