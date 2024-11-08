@@ -3,23 +3,23 @@ import Link from "next/link";
 const SupportFooter = () => {
   const items = [
     {
-      name: "회사 홈페이지",
+      name: "Home",
       path: "/",
     },
     {
-      name: "회사소개",
+      name: "About us",
       path: "/about",
     },
     {
-      name: "서비스 설명",
+      name: "Blog update",
       path: "/blogs",
     },
     {
-      name: "뉴스 및 소식",
+      name: "Our services",
       path: "/services",
     },
     {
-      name: "문의/상담",
+      name: "Testimonial",
       path: "#",
     },
   ];

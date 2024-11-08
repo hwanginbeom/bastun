@@ -26,9 +26,8 @@ const LogoFooter = ({ style }) => {
         </div>
         <div className="footer__text">
           <p>
-            셀파트너(sellparnter)는 실제 판매자의 입장에서 개발하고 연구하며
-            판매자 분들이 판매자라는 직업을 가지는데 있어서 안정적인 매출과
-            환경을 제공하고자 합니다.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt labore et dolore magna aliqua
           </p>
         </div>
         <div className="footer__icon">

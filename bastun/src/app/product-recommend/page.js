@@ -1,11 +1,11 @@
-import LoginMain from "@/components/layout/main/LoginMain";
+import ProductRecommendMain from "@/containers/product-recommend/ProductRecommendMain"
 import ThemeController from "@/components/shared/others/ThemeController";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 export const metadata = {
-  title: "Login | Bastun- Business Consulting Next Js Template",
-  description: "Login | Bastun- Business Consulting Next Js Template",
+  title: "About | Bastun- Business Consulting Next Js Template",
+  description: "About | Bastun- Business Consulting Next Js Template",
 };
-export default function Login() {
+export default function About() {
   return (
     <PageWrapper
       headerStyle={3}
@@ -14,7 +14,7 @@ export default function Login() {
       footerBg={"black"}
     >
       <ThemeController />
-      <LoginMain />
+      <ProductRecommendMain bg={"white"}/>
     </PageWrapper>
   );
 }
